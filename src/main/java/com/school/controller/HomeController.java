@@ -27,7 +27,7 @@ public class HomeController {
 	public String goAbout(){
 		return "about";
 	}
-	
+	//This is comment 2
 	/*@RequestMapping(value = "/", method = RequestMethod.GET )
 	public String startLogin(){
 	    return "/login.html";
