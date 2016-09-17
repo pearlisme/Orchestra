@@ -27,7 +27,12 @@ public class HomeController {
 	public String goAbout(){
 		return "about";
 	}
+<<<<<<< HEAD
 	//This is comment 2
+=======
+	// This method for html
+	
+>>>>>>> refs/heads/Bugfix
 	/*@RequestMapping(value = "/", method = RequestMethod.GET )
 	public String startLogin(){
 	    return "/login.html";
