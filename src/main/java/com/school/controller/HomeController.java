@@ -24,7 +24,11 @@ public class HomeController {
 	
 	@RequestMapping("/home")
 	public String goHome(){
-		return "home";
+		return "home1";
+	}
+	@RequestMapping("/homed")
+	public String goHomeD(){
+		return "home1";
 	}
 	
 	@RequestMapping("/about")
