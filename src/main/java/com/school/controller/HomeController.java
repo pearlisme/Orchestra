@@ -26,10 +26,7 @@ public class HomeController {
 	public String goHome(){
 		return "home";
 	}
-	@RequestMapping("/homed")
-	public String goHomeD(){
-		return "home1";
-	}
+	
 	@RequestMapping("/about")
 	public String goAbout(){
 		return "about";
