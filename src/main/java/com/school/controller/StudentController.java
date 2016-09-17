@@ -2,6 +2,7 @@ package com.school.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping("/student")
@@ -9,6 +10,7 @@ public class StudentController {
 
 	@RequestMapping("/add")
 	public String addStudent(){
+		System.out.println("Invoking add project");
 		return "add_student";
 	}
 	
