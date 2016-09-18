@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>school Manager</title>
+<title>Project Manager</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<spring:url value="/resources/css/home.css"/>" type="text/css"/>
@@ -16,13 +16,9 @@
 
 </head>
 <body>
-<body>
 
-<jsp:include page="../views/fragments/header.jsp"></jsp:include>
-<div class="container">
-</div>
-
-<jsp:include page="../views/fragments/footer.jsp"></jsp:include>
-  
+	<jsp:include page="../views/fragments/header.jsp"></jsp:include>
+	
+	
 </body>
 </html>
