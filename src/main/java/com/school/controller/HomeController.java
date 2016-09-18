@@ -19,31 +19,20 @@ public class HomeController {
 	@RequestMapping("/")
 	public String goLogin(){
 		 log.info("Going to create login Obj");
+		 System.out.println("Entering into login...");
 		return "login";
 	}
 	
 	@RequestMapping("/home")
 	public String goHome(){
-		return "home1";
+		System.out.println("Entering into home...");
+		return "home";
 	}
-	@RequestMapping("/homed")
-	public String goHomeD(){
-		return "home1";
-	}
-	
+		
 	@RequestMapping("/about")
 	public String goAbout(){
+		System.out.println("Entering into about");
 		return "about";
 	}
 	
-	 @RequestMapping(value = "/staticPage", method = RequestMethod.GET)
-	   public String redirect() {
-		 log.info("Going to create static Obj");
-	      return "redirect:/views/home1.htm";
-	   }
-	//This is comment 2
-	/*@RequestMapping(value = "/", method = RequestMethod.GET )
-	public String startLogin(){
-	    return "/login.html";
-	}*/
 }
