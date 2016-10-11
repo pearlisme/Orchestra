@@ -25,7 +25,7 @@
 
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="<spring:url value="/student/add"/>">Add</a></li>
-							<li><a href="<spring:url value="/student/modify"/>">Mpdify</a></li>
+							<li><a href="<spring:url value="/student/modify"/>">Modify</a></li>
 							<li><a href="<spring:url value="/student/delete"/>">Delete</a></li>
 							<li><a href="<spring:url value="/student/export"/>">Export</a></li>
 							<li><a href="#">Find</a></li>

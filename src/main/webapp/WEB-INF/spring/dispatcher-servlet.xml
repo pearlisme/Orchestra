@@ -15,6 +15,13 @@
 
 </bean>
 
+<!-- <mvc:interceptors>
+    <mvc:interceptor>
+        <mvc:mapping path="/"/>
+        <bean class="com.school.controller.HomeController"></bean>
+    </mvc:interceptor>
+</mvc:interceptors> -->
+
 <mvc:resources location="/resources/" mapping="/resources/**"></mvc:resources>
 
 </beans>
